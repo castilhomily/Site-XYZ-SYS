@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.logo span {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 2px 6px;
+    margin-left: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px;
+    height: 450px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url('imagns/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.hero-text {
+    padding: 20px 30px;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.hero-text h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #00aaff;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero img {
+    display: none;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    padding: 100px 40px;
+    gap: 30px;
+}
+
+.service {
+    max-width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.service img {
+    width: 36px;
+    height: 36px;
+}
+
+.service a {
+    color: #0078d7;
+}
